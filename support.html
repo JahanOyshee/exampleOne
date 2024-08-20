@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support</title>
+
+    <style>
+        .Banner {
+            background-image: url(Images/handshake.jpg);
+            width: 100%;
+            height: 380px; 
+            background-size: cover; 
+            background-position: center; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            
+            padding: 20px;
+            border-radius: 8px;
+            
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group textarea {
+            width: 200%;
+            height: 10px;
+            display: inline-block;
+            padding: 10px;
+            font-size: 1em;
+            border: 1px 
+            
+            
+        }
+        .form-group button {
+            padding: 5px 10px;
+            font-size: 12px;
+            background-color: hsl(0, 0%, 100%);
+            color: hwb(0 0% 100%);
+            display: inline-block;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        
+    </style>
+</head>
+<body>
+    <div  class="Banner">
+    <div class="container">
+        <h2 style="color: aliceblue; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">I need Support</h2>
+        <form id="feedbackForm">
+            
+            <div
+                class="form-group">
+                <label for="feedback" style="color: aliceblue; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Help me!</label>
+        </div>
+                <div>
+                <textarea id="feedback" name="feedback" placeholder="Suggest me any feedback for me" required></textarea> 
+                <div  class="form-group">
+                <button type="submit">Submit it</button> </div>
+                </div>
+            </div> 
+        </form>
+    </div></div>
+
+</body>
+</html>
